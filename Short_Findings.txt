@@ -1,0 +1,19 @@
+MISSING VALUE IDENTIFICATION
+
+Dataset: Iris flower dataset (150 records, 6 columns)
+Note: The original Iris dataset is complete. Controlled blank cells were added for this training demonstration.
+
+Total missing cells: 17
+Columns with missing values: 5
+Rows containing at least one missing value: 17
+
+Missing values by column:
+- Record_ID: 0 (0.0%)
+- Sepal_Length_cm: 5 (3.33%)
+- Sepal_Width_cm: 4 (2.67%)
+- Petal_Length_cm: 3 (2.0%)
+- Petal_Width_cm: 3 (2.0%)
+- Species: 2 (1.33%)
+
+No rows or values were deleted. Missing values were only identified and summarized.
+Recommendation: Investigate the reason for missingness before choosing an imputation or removal strategy.
